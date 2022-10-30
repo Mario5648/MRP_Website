@@ -20,18 +20,10 @@ body
     align-items: center;
 }
 
-.hero-image-section-tint
-{
-    position: absolute;
-    height: 933px;
-    width: 1400px;
-    background: #455255;
-    opacity: 0.7;
-}
-
 .hero-image
 {
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
 }
 
 .hero-contents
@@ -41,8 +33,7 @@ body
     flex-direction: column;
     align-items: flex-start;
 
-    margin-top: -800px;
-
+    margin-top: -60%;
     
     width: 100%;
     max-width: 1200px;
@@ -75,12 +66,12 @@ body
     width: 100%;
     max-width: 1200px;
 
-    margin-top: -1600px;
+    top: 0px;
 }
 
 .nav-logo
 {
-    width: 200px;
+    width: 300px;
 }
 
 .nav-menu-contianer
@@ -257,3 +248,240 @@ body
 
   }
   
+.contact-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+}
+
+.contact-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: #fcfcfc;
+    box-shadow: 5px 10px 18px #888888;
+
+    padding: 20 20 20 20;
+
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-right-section
+{
+    width: 100%;
+    max-width: 600px;
+
+    padding-left: 30px;
+}
+
+.contact-title
+{
+    font-size: 40px;
+    color: #455255;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contact-subtitle
+{
+    font-size: 20px;
+    color: #4697a6;
+    text-align: center;
+}
+
+.contact-label-text
+{
+    font-size: 25px;
+    color: #455255;
+}
+
+.contact-input-field
+{
+    height: 35px;
+    width: 75%;
+
+    font-size: 20px;
+}
+
+
+.contact-message-field
+{
+    height: 150px;
+    width: 75%;
+}
+
+.contact-submit-button
+{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+    background-color: #455255;
+    color: #fcfcfc;
+    border-style: none;
+}
+
+
+.contact-left-section
+{
+    font-size: 30px;
+    color: #455255;
+}
+
+.feedback-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+}
+
+.feedback-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    max-width: 1200px;
+}
+
+.feedback-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fcfcfc;
+    box-shadow: 5px 10px 18px #888888;
+
+    width: 400px;
+
+    margin: 20 20 20 20;
+    padding: 20 20 20 20;
+
+}
+
+.feedback-title
+{
+    font-size: 60px;
+    color: #455255;
+    font-weight: 800;
+}
+
+.feedback-card-name
+{
+    font-size: 40px;
+    color: #455255;
+}
+
+.feedback-card-raiting
+{
+    font-size: 30px;
+    color: #455255; 
+}
+
+.feedback-card-raiting-star
+{
+    color: #4697a6; 
+}
+
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200;
+    background-color: #455255;
+
+}
+
+.footer-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1400px;
+
+    color:#fcfcfc;
+}
+
+.footer-left
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 33.33%;
+    padding: 50 50 50 50;
+}
+
+
+.footer-middle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    padding: 50 50 50 50;
+}
+
+.footer-right
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 33.33%;
+    padding: 50 50 50 50;
+}
+
+.footer-logo
+{
+    width: 200px;
+}
+
+.footer-normal-text
+{
+    font-size: 20px;
+}
+
+.footer-title-text
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-social-button
+{
+    background-color: #d4d4d2;
+    color: #455255;
+    border-style: none;
+
+    width: 50px;
+    height: 50px;
+
+    font-size: 25px;
+}
+
+.footer-final-text
+{
+    font-size: 16px;
+    color: #fcfcfc;
+}
