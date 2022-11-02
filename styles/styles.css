@@ -799,7 +799,7 @@ body
         width: 500px;
 
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
 
@@ -823,9 +823,8 @@ body
         color: #fcfcfc;
         border-style: none;
 
-        margin-top: 20px;
+        margin-top: 80px;
     }
-
 
     .contact-left-section
     {
@@ -840,6 +839,7 @@ body
         justify-content: center;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
 
     }
 
@@ -934,7 +934,6 @@ body
         align-items: center;
 
         width: 100%;
-        max-width: 1000px;
 
         color:#fcfcfc;
     }
@@ -989,6 +988,11 @@ body
         font-weight: 700;
     }
 
+    .footer-title-text-contact
+    {
+        font-size: 5px;
+    }
+
     .footer-social-button
     {
         background-color: #d4d4d2;
@@ -997,6 +1001,8 @@ body
 
         width: 50px;
         height: 50px;
+
+        font-size: 30px;
 
     }
 
