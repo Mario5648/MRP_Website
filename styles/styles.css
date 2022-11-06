@@ -11,6 +11,16 @@ a
     text-decoration: none;
 }
 
+.phone-footer
+{
+    color: #fcfcfc;
+}
+
+.phone-contact
+{
+    color: #455255;
+}
+
 @media only screen and (min-width: 1050px)
 {
     .hero-container
