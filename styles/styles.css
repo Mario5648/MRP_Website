@@ -267,6 +267,11 @@ a
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
     
+    .card-list
+    {
+        font-size: 20px;
+    }
+
     .flip-card:hover .flip-card-inner {
         transform: rotateY(180deg);
     }
@@ -289,7 +294,6 @@ a
         color: #455255;
         transform: rotateY(180deg);
         padding: 20 20 20 20;
-
         font-size: 20px;
 
     }
@@ -798,6 +802,12 @@ a
         font-size: 55px;
         text-align: center;
         color: #455255;
+    }
+
+    .card-list
+    {
+        font-size: 20px;
+        text-align: left;
     }
 
     .flip-card-back-text
